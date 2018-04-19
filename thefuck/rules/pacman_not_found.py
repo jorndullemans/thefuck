@@ -6,8 +6,8 @@ should be:
     yaourt -S llvm
 """
 
-from thefuck.utils import replace_command
-from thefuck.specific.archlinux import get_pkgfile, archlinux_env
+from thedick.utils import replace_command
+from thedick.specific.archlinux import get_pkgfile, archlinux_env
 
 
 def match(command):

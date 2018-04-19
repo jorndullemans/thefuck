@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.git_fix_stash import match, get_new_command
-from thefuck.types import Command
+from thedick.rules.git_fix_stash import match, get_new_command
+from thedick.types import Command
 
 
 git_stash_err = '''

@@ -1,5 +1,5 @@
 import re
-from thefuck.utils import for_app
+from thedick.utils import for_app
 
 
 @for_app('heroku')

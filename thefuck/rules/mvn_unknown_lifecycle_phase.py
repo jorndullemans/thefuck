@@ -1,4 +1,4 @@
-from thefuck.utils import replace_command, for_app
+from thedick.utils import replace_command, for_app
 from difflib import get_close_matches
 import re
 

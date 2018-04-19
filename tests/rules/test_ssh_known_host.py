@@ -1,8 +1,8 @@
 import os
 import pytest
-from thefuck.rules.ssh_known_hosts import match, get_new_command,\
+from thedick.rules.ssh_known_hosts import match, get_new_command,\
     side_effect
-from thefuck.types import Command
+from thedick.types import Command
 
 
 @pytest.fixture

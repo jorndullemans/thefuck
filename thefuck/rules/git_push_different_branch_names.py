@@ -1,5 +1,5 @@
 import re
-from thefuck.specific.git import git_support
+from thedick.specific.git import git_support
 
 
 @git_support

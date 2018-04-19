@@ -1,7 +1,7 @@
 import pytest
 from io import BytesIO
-from thefuck.rules.git_checkout import match, get_branches, get_new_command
-from thefuck.types import Command
+from thedick.rules.git_checkout import match, get_branches, get_new_command
+from thedick.types import Command
 
 
 @pytest.fixture

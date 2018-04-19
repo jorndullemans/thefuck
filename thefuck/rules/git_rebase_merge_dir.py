@@ -1,5 +1,5 @@
 from difflib import get_close_matches
-from thefuck.specific.git import git_support
+from thedick.specific.git import git_support
 
 
 @git_support

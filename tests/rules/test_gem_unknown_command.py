@@ -1,7 +1,7 @@
 import pytest
 from six import BytesIO
-from thefuck.rules.gem_unknown_command import match, get_new_command
-from thefuck.types import Command
+from thedick.rules.gem_unknown_command import match, get_new_command
+from thedick.types import Command
 
 output = '''
 ERROR:  While executing gem ... (Gem::CommandLineError)

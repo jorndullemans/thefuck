@@ -28,7 +28,7 @@ class CommandSelector(object):
     """Helper for selecting rule from rules list."""
 
     def __init__(self, commands):
-        """:type commands: Iterable[thefuck.types.CorrectedCommand]"""
+        """:type commands: Iterable[thedick.types.CorrectedCommand]"""
         self._commands_gen = commands
         try:
             self._commands = [next(self._commands_gen)]
@@ -52,7 +52,7 @@ class CommandSelector(object):
 
     @property
     def value(self):
-        """:rtype hefuck.types.CorrectedCommand"""
+        """:rtype hedick.types.CorrectedCommand"""
         return self._commands[self._index]
 
 
@@ -63,14 +63,14 @@ def select_command(corrected_commands):
      - None when ctrl+c pressed;
      - selected command.
 
-    :type corrected_commands: Iterable[thefuck.types.CorrectedCommand]
-    :rtype: thefuck.types.CorrectedCommand | None
+    :type corrected_commands: Iterable[thedick.types.CorrectedCommand]
+    :rtype: thedick.types.CorrectedCommand | None
 
     """
     try:
         selector = CommandSelector(corrected_commands)
     except NoRuleMatched:
-        logs.failed('No fucks given' if get_alias() == 'fuck'
+        logs.failed('No dicks given' if get_alias() == 'dick'
                     else 'Nothing found')
         return
 

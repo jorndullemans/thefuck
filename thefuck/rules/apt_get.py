@@ -1,7 +1,7 @@
 from types import ModuleType
-from thefuck.specific.apt import apt_available
-from thefuck.utils import memoize, which
-from thefuck.shells import shell
+from thedick.specific.apt import apt_available
+from thedick.utils import memoize, which
+from thedick.shells import shell
 
 try:
     from CommandNotFound import CommandNotFound

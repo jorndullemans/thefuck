@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.apt_list_upgradable import get_new_command, match
-from thefuck.types import Command
+from thedick.rules.apt_list_upgradable import get_new_command, match
+from thedick.types import Command
 
 match_output = '''
 Hit:1 http://us.archive.ubuntu.com/ubuntu zesty InRelease

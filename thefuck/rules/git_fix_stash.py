@@ -1,6 +1,6 @@
-from thefuck import utils
-from thefuck.utils import replace_argument
-from thefuck.specific.git import git_support
+from thedick import utils
+from thedick.utils import replace_argument
+from thedick.specific.git import git_support
 
 
 @git_support

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from thefuck.shells import Generic
+from thedick.shells import Generic
 
 
 class TestGeneric(object):
@@ -25,11 +25,11 @@ class TestGeneric(object):
         assert shell.get_aliases() == {}
 
     def test_app_alias(self, shell):
-        assert 'alias fuck' in shell.app_alias('fuck')
-        assert 'alias FUCK' in shell.app_alias('FUCK')
-        assert 'thefuck' in shell.app_alias('fuck')
-        assert 'TF_ALIAS=fuck PYTHONIOENCODING' in shell.app_alias('fuck')
-        assert 'PYTHONIOENCODING=utf-8 thefuck' in shell.app_alias('fuck')
+        assert 'alias dick' in shell.app_alias('dick')
+        assert 'alias DICK' in shell.app_alias('DICK')
+        assert 'thedick' in shell.app_alias('dick')
+        assert 'TF_ALIAS=dick PYTHONIOENCODING' in shell.app_alias('dick')
+        assert 'PYTHONIOENCODING=utf-8 thedick' in shell.app_alias('dick')
 
     def test_get_history(self, history_lines, shell):
         history_lines(['ls', 'rm'])

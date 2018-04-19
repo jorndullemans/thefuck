@@ -1,5 +1,5 @@
-from thefuck.utils import for_app, memoize
-from thefuck.system import Path
+from thedick.utils import for_app, memoize
+from thedick.system import Path
 
 path_to_scm = {
     '.git': 'git',

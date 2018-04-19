@@ -1,8 +1,8 @@
 import re
-from thefuck.shells import shell
-from thefuck.specific.git import git_support
-from thefuck.system import Path
-from thefuck.utils import memoize
+from thedick.shells import shell
+from thedick.specific.git import git_support
+from thedick.system import Path
+from thedick.utils import memoize
 
 
 @memoize

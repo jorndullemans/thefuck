@@ -1,7 +1,7 @@
 import re
-from thefuck.shells import shell
-from thefuck.specific.git import git_support
-from thefuck.utils import eager
+from thedick.shells import shell
+from thedick.specific.git import git_support
+from thedick.utils import eager
 
 
 @git_support

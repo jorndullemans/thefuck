@@ -19,7 +19,7 @@ class Bash(Generic):
                 export TF_HISTORY=$(fc -ln -10);
                 export PYTHONIOENCODING=utf-8;
                 TF_CMD=$(
-                    thefuck {argument_placeholder} $@
+                    thedick {argument_placeholder} $@
                 ) && eval $TF_CMD;
                 unset TF_HISTORY;
                 export PYTHONIOENCODING=$TF_PYTHONIOENCODING;
@@ -32,7 +32,7 @@ class Bash(Generic):
                            if settings.alter_history else ''))
 
     def instant_mode_alias(self, alias_name):
-        if os.environ.get('THEFUCK_INSTANT_MODE', '').lower() == 'true':
+        if os.environ.get('THEDICK_INSTANT_MODE', '').lower() == 'true':
             mark = USER_COMMAND_MARK + '\b' * len(USER_COMMAND_MARK)
             return '''
                 export PS1="{user_command_mark}$PS1";
@@ -41,11 +41,11 @@ class Bash(Generic):
                        app_alias=self.app_alias(alias_name))
         else:
             log_path = os.path.join(
-                gettempdir(), 'thefuck-script-log-{}'.format(uuid4().hex))
+                gettempdir(), 'thedick-script-log-{}'.format(uuid4().hex))
             return '''
-                export THEFUCK_INSTANT_MODE=True;
-                export THEFUCK_OUTPUT_LOG={log};
-                thefuck --shell-logger {log};
+                export THEDICK_INSTANT_MODE=True;
+                export THEDICK_OUTPUT_LOG={log};
+                thedick --shell-logger {log};
                 rm {log};
                 exit
             '''.format(log=log_path)
@@ -78,6 +78,6 @@ class Bash(Generic):
             config = 'bash config'
 
         return self._create_shell_configuration(
-            content=u'eval $(thefuck --alias)',
+            content=u'eval $(thedick --alias)',
             path=config,
             reload=u'source {}'.format(config))

@@ -1,12 +1,12 @@
-<!-- If you have any issue with The Fuck, sorry about that, but we will do what we
+<!-- If you have any issue with The Dick, sorry about that, but we will do what we
 can to fix that. Actually, maybe we already have, so first thing to do is to
-update The Fuck and see if the bug is still there. -->
+update The Dick and see if the bug is still there. -->
 
 <!-- If it is (sorry again), check if the problem has not already been reported and
-if not, just open an issue on [GitHub](https://github.com/nvbn/thefuck) with
+if not, just open an issue on [GitHub](https://github.com/nvbn/thedick) with
 the following basic information: -->
 
-The output of `thefuck --version` (something like `The Fuck 3.1 using Python 3.5.0`):
+The output of `thedick --version` (something like `The Dick 3.1 using Python 3.5.0`):
 
     FILL THIS IN
 
@@ -22,7 +22,7 @@ How to reproduce the bug:
 
     FILL THIS IN
 
-The output of The Fuck with `THEFUCK_DEBUG=true` exported (typically execute `export THEFUCK_DEBUG=true` in your shell before The Fuck):
+The output of The Dick with `THEDICK_DEBUG=true` exported (typically execute `export THEDICK_DEBUG=true` in your shell before The Dick):
 
     FILL THIS IN
 

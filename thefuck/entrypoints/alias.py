@@ -6,8 +6,8 @@ from ..utils import which
 
 def _get_alias(known_args):
     if six.PY2:
-        warn("The Fuck will drop Python 2 support soon, more details "
-             "https://github.com/nvbn/thefuck/issues/685")
+        warn("The Dick will drop Python 2 support soon, more details "
+             "https://github.com/nvbn/thedick/issues/685")
 
     alias = shell.app_alias(known_args.alias)
 

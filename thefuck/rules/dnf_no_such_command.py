@@ -1,8 +1,8 @@
 import subprocess
 import re
-from thefuck.specific.sudo import sudo_support
-from thefuck.utils import for_app, replace_command
-from thefuck.specific.dnf import dnf_available
+from thedick.specific.sudo import sudo_support
+from thedick.utils import for_app, replace_command
+from thedick.specific.dnf import dnf_available
 
 
 regex = re.compile(r'No such command: (.*)\.')

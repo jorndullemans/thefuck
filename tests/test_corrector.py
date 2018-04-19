@@ -2,23 +2,23 @@
 
 import pytest
 from tests.utils import Rule, CorrectedCommand
-from thefuck import corrector, const
-from thefuck.system import Path
-from thefuck.types import Command
-from thefuck.corrector import get_corrected_commands, organize_commands
+from thedick import corrector, const
+from thedick.system import Path
+from thedick.types import Command
+from thedick.corrector import get_corrected_commands, organize_commands
 
 
 class TestGetRules(object):
     @pytest.fixture
     def glob(self, mocker):
         results = {}
-        mocker.patch('thefuck.system.Path.glob',
+        mocker.patch('thedick.system.Path.glob',
                      new_callable=lambda: lambda *_: results.pop('value', []))
         return lambda value: results.update({'value': value})
 
     @pytest.fixture(autouse=True)
     def load_source(self, monkeypatch):
-        monkeypatch.setattr('thefuck.types.load_source',
+        monkeypatch.setattr('thedick.types.load_source',
                             lambda x, _: Rule(x))
 
     def _compare_names(self, rules, names):
@@ -47,7 +47,7 @@ def test_get_corrected_commands(mocker):
              Rule(match=lambda _: True,
                   get_new_command=lambda x: [x.script + '@', x.script + ';'],
                   priority=60)]
-    mocker.patch('thefuck.corrector.get_rules', return_value=rules)
+    mocker.patch('thedick.corrector.get_rules', return_value=rules)
     assert ([cmd.script for cmd in get_corrected_commands(command)]
             == ['test!', 'test@', 'test;'])
 

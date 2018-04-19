@@ -3,9 +3,9 @@
 import os
 import six
 from difflib import get_close_matches
-from thefuck.specific.sudo import sudo_support
-from thefuck.rules import cd_mkdir
-from thefuck.utils import for_app
+from thedick.specific.sudo import sudo_support
+from thedick.rules import cd_mkdir
+from thedick.utils import for_app
 
 __author__ = "mmussomele"
 

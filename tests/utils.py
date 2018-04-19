@@ -1,5 +1,5 @@
-from thefuck import types
-from thefuck.const import DEFAULT_PRIORITY
+from thedick import types
+from thedick.const import DEFAULT_PRIORITY
 
 
 class Rule(types.Rule):

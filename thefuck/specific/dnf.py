@@ -1,3 +1,3 @@
-from thefuck.utils import which
+from thedick.utils import which
 
 dnf_available = bool(which('dnf'))

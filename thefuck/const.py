@@ -44,33 +44,33 @@ DEFAULT_SETTINGS = {'rules': DEFAULT_RULES,
                     'instant_mode': False,
                     'env': {'LC_ALL': 'C', 'LANG': 'C', 'GIT_TRACE': '1'}}
 
-ENV_TO_ATTR = {'THEFUCK_RULES': 'rules',
-               'THEFUCK_EXCLUDE_RULES': 'exclude_rules',
-               'THEFUCK_WAIT_COMMAND': 'wait_command',
-               'THEFUCK_REQUIRE_CONFIRMATION': 'require_confirmation',
-               'THEFUCK_NO_COLORS': 'no_colors',
-               'THEFUCK_DEBUG': 'debug',
-               'THEFUCK_PRIORITY': 'priority',
-               'THEFUCK_HISTORY_LIMIT': 'history_limit',
-               'THEFUCK_ALTER_HISTORY': 'alter_history',
-               'THEFUCK_WAIT_SLOW_COMMAND': 'wait_slow_command',
-               'THEFUCK_SLOW_COMMANDS': 'slow_commands',
-               'THEFUCK_REPEAT': 'repeat',
-               'THEFUCK_INSTANT_MODE': 'instant_mode'}
+ENV_TO_ATTR = {'THEDICK_RULES': 'rules',
+               'THEDICK_EXCLUDE_RULES': 'exclude_rules',
+               'THEDICK_WAIT_COMMAND': 'wait_command',
+               'THEDICK_REQUIRE_CONFIRMATION': 'require_confirmation',
+               'THEDICK_NO_COLORS': 'no_colors',
+               'THEDICK_DEBUG': 'debug',
+               'THEDICK_PRIORITY': 'priority',
+               'THEDICK_HISTORY_LIMIT': 'history_limit',
+               'THEDICK_ALTER_HISTORY': 'alter_history',
+               'THEDICK_WAIT_SLOW_COMMAND': 'wait_slow_command',
+               'THEDICK_SLOW_COMMANDS': 'slow_commands',
+               'THEDICK_REPEAT': 'repeat',
+               'THEDICK_INSTANT_MODE': 'instant_mode'}
 
-SETTINGS_HEADER = u"""# The Fuck settings file
+SETTINGS_HEADER = u"""# The Dick settings file
 #
 # The rules are defined as in the example bellow:
 #
 # rules = ['cd_parent', 'git_push', 'python_command', 'sudo']
 #
 # The default values are as follows. Uncomment and change to fit your needs.
-# See https://github.com/nvbn/thefuck#settings for more information.
+# See https://github.com/nvbn/thedick#settings for more information.
 #
 
 """
 
-ARGUMENT_PLACEHOLDER = 'THEFUCK_ARGUMENT_PLACEHOLDER'
+ARGUMENT_PLACEHOLDER = 'THEDICK_ARGUMENT_PLACEHOLDER'
 
 CONFIGURATION_TIMEOUT = 60
 

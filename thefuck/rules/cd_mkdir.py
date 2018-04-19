@@ -1,7 +1,7 @@
 import re
-from thefuck.utils import for_app
-from thefuck.specific.sudo import sudo_support
-from thefuck.shells import shell
+from thedick.utils import for_app
+from thedick.specific.sudo import sudo_support
+from thedick.shells import shell
 
 
 @sudo_support

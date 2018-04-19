@@ -1,6 +1,6 @@
 import pytest
-from thefuck.rules.brew_cask_dependency import match, get_new_command
-from thefuck.types import Command
+from thedick.rules.brew_cask_dependency import match, get_new_command
+from thedick.types import Command
 
 
 output = '''sshfs: OsxfuseRequirement unsatisfied!
